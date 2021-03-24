@@ -1,4 +1,5 @@
 import { Component } from 'react';
+import Posts from '../posts/Posts';
 
 class Blog extends Component {
 
@@ -9,6 +10,7 @@ class Blog extends Component {
         <h1>{title}</h1>
         <p>Category: {cat}</p>
         <p>posts:</p>
+        <Posts blogId={id} />
       </>
     )
   }

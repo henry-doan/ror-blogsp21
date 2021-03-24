@@ -13,6 +13,8 @@ const BlogList = ({ blogs }) => {
               }}>
               {b.title}
             </Link>
+            <button>Edit</button>
+            <button>Delete</button>
             <br />
           </>
         )
